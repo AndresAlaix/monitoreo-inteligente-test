@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-10-26T05:30:54" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="user monthly statements test" timestamp="2020-10-26T05:30:54" tests="6" file="/Users/guillermoaalaixcardona/Desktop/Dev_Projects/7b459a68-6912-4932-acb9-17f67f7c9cdc/test/test.js" failures="1" time="0">
+    <testcase name="user monthly statements test &quot;before all&quot; hook" time="0" classname="&quot;before all&quot; hook">
+      <failure message="session not created: This version of ChromeDriver only supports Chrome version 78
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Mac OS X 10.14.5 x86_64)" type="SessionNotCreatedError"><![CDATA[SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 78
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Mac OS X 10.14.5 x86_64)
+    at Object.checkLegacyResponse (node_modules/selenium-webdriver/lib/error.js:546:15)
+    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:509:13)
+    at node_modules/selenium-webdriver/lib/http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+From: Task: WebDriver.createSession()
+    at Function.createSession (node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+    at Function.createSession (node_modules/selenium-webdriver/chrome.js:761:15)
+    at createDriver (node_modules/selenium-webdriver/index.js:170:33)
+    at Builder.build (node_modules/selenium-webdriver/index.js:642:16)
+    at Context.<anonymous> (test/test.js:29:14)
+    at processImmediate (internal/timers.js:456:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
